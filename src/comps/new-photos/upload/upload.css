@@ -1,0 +1,50 @@
+#upload {
+  width: 100%;
+}
+
+#upload-label {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0.4;
+  padding-bottom: 30px;
+}
+
+#upload-label:hover {
+  opacity: 1;
+}
+
+#upload-label input {
+  display: none;
+}
+
+#upload-img-grid {
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#upload-img-grid img {
+  width: 100%;
+  object-fit: cover;
+  height: 150px;
+  cursor: pointer;
+}
+
+.upload-output button {
+  margin: 20px 0;
+}
+
+.file-name {
+  font-style: italic;
+  font-size: 0.65rem;
+  width: 100%;
+  opacity: 0.5;
+  margin: 5px 0;
+}
+
+.cover-selected {
+  opacity: 0.5;
+}
